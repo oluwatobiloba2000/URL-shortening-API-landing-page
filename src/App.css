@@ -1,1 +1,49 @@
+.mid-header{
+    margin-top: 40px;
+width: 100%;
+display: flex;
+}
+
+/* .mid-header>div{
+    width: 50%;
+    border: 1px solid;
+} */
+
+.introductory-text-container{
+    width: 56%;
+}
+
+.introductory-text-container>h1{
+    font-size: 62px;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+
+.introductory-text-container>h5{
+    margin-top: -11px;
+    font-weight: 500;
+    width: 90%;
+    font-size: 18px;
+    color: gray;
+}
+.introductory-text-container>button{
+    height: 43px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    width: 170px;
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 20px;
+}
+
+.home-svg{
+    width: 44%;
+}
+.home-svg>img{
+    width: 142%;
+    height: 437px;
+    margin-left: 31px;
+}
 @import './styles/nav.css'
