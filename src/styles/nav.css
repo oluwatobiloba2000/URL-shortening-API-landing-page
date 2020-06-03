@@ -1,0 +1,47 @@
+.top-header{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.top-header>nav{
+    align-items: center;
+    margin-top: -15px;
+    display: flex;
+    width: 100%;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 10%;
+}
+.top-header>nav>ul{
+    list-style-type: none;
+    padding: 0;
+margin: 0;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-header>nav>ul:first-of-type{
+    width: 250px;
+}
+.auth-list{
+    width: 160px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list>li{
+    cursor: pointer;
+}
+.sign-up-auth{
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+}
