@@ -1,7 +1,7 @@
 .top-header{
     display: flex;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 .top-header>nav{
     align-items: center;
@@ -11,7 +11,6 @@
     /* border: 1px solid; */
     justify-content: space-between;
     padding-left: 30px;
-    padding-right: 10%;
 }
 .top-header>nav>ul{
     list-style-type: none;
@@ -36,12 +35,18 @@ margin: 0;
 .nav-list>li{
     cursor: pointer;
 }
+.nav-list>li>a{
+    text-decoration: none;
+    color: black;
+}
 .sign-up-auth{
     border-radius: 20px;
     padding-left: 17px;
     padding-right: 17px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
     background-color: hsl(180, 66%, 49%);
+}
+.sign-up-auth>a{
+    color: white !important;
 }
