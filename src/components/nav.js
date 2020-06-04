@@ -7,13 +7,19 @@ const Nav = () =>(
       </div>
       <nav>
         <ul className="nav-list">
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Resources</li>
+            <li>
+              <a href="#" rel="no-referrer">Features</a>
+            </li>
+            <li>
+              <a href="#" rel="no-referrer">Pricing</a>
+            </li>
+            <li>
+               <a href="#" rel="no-referrer">Resources</a>
+            </li>
         </ul>
         <ul className="auth-list nav-list">
-            <li>login</li>
-            <li className="sign-up-auth">sign up</li>
+            <li><a href="#" rel="no-referrer">login</a></li>
+            <li className="sign-up-auth"><a href="#" rel="no-referrer">sign up</a></li>
         </ul>
       </nav>
    </header>
