@@ -1,0 +1,35 @@
+.url-shortner-container {
+    background-image: url(../images/bg-shorten-desktop.svg);
+    background-size: 100% 100%;
+    background-color: hsl(257, 27%, 26%);
+    position: relative;
+    top: -53px;
+    left: 8%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    width: 83%;
+}
+
+.url-shortner-container>input {
+    height: 40%;
+    width: 65%;
+    border-radius: 6px;
+    border: none;
+    text-indent: 28px;
+    font-size: 16px;
+}
+
+.url-shortner-container>button {
+    height: 40%;
+    margin-left: 18px;
+    width: 18%;
+    border-radius: 5px;
+    border: none;
+    background-color: #2acfcf;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
