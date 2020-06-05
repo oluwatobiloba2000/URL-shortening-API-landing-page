@@ -1,9 +1,11 @@
-html{
+html {
   overflow-x: hidden;
+  font-family: poppins, 'curusive';
 }
+
 body {
   margin: 0;
-  font-family: poppins, 'curusive';
+  background-color: hsl(0, 0%, 90%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,27 +15,57 @@ code {
     monospace;
 }
 
-.container{
-  margin-right: 10%;
-  margin-left: 10%;
+input,
+button {
+  font-family: poppins, 'curusive';
 }
-.bg-white{
+
+.container {
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 45px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.bg-white {
   background-color: white;
 }
 
-.color-codes{
+.btn-primary {
+  height: 43px;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  width: 170px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  border-radius: 20px;
+}
 
- color: hsl(180, 66%, 49%);
+.btn-primary>a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: hsl(180, 63%, 67%);
+}
+
+.color-codes {
+
+  color: hsl(180, 66%, 49%);
   color: hsl(257, 27%, 26%);
- 
- /* ### Secondary */
- 
- color: hsl(0, 87%, 67%);
- 
- /* ### Neutral */
- 
+
+  /* ### Secondary */
+
+  color: hsl(0, 87%, 67%);
+
+  /* ### Neutral */
+
   color: hsl(0, 0%, 75%);
-  color : hsl(257, 7%, 63%);
+  color: hsl(257, 7%, 63%);
   color: hsl(255, 11%, 22%);
- color: hsl(260, 8%, 14%)
+  color: hsl(260, 8%, 14%)
 }
