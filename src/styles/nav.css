@@ -1,9 +1,9 @@
-.top-header{
+.top-header {
     display: flex;
     width: 100%;
-    margin-top: 45px;
 }
-.top-header>nav{
+
+.top-header>nav {
     align-items: center;
     margin-top: -15px;
     display: flex;
@@ -12,34 +12,43 @@
     justify-content: space-between;
     padding-left: 30px;
 }
-.top-header>nav>ul{
+
+.top-header>nav>ul {
     list-style-type: none;
     padding: 0;
-margin: 0;
+    margin: 0;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     justify-content: space-between;
 }
 
 
-.top-header>nav>ul:first-of-type{
+.top-header>nav>ul:first-of-type {
     width: 250px;
 }
-.auth-list{
+
+.auth-list {
     width: 160px;
     display: flex;
     align-items: center;
 }
 
-.nav-list>li{
+.nav-list>li {
     cursor: pointer;
 }
-.nav-list>li>a{
+
+.nav-list>li>a {
     text-decoration: none;
     color: black;
 }
-.sign-up-auth{
+
+.nav-list>li>a:hover {
+    font-weight: bolder;
+}
+
+.sign-up-auth {
     border-radius: 20px;
     padding-left: 17px;
     padding-right: 17px;
@@ -47,6 +56,11 @@ margin: 0;
     padding-bottom: 5px;
     background-color: hsl(180, 66%, 49%);
 }
-.sign-up-auth>a{
+
+.sign-up-auth:hover {
+    background-color: hsl(180, 56%, 78%);
+}
+
+.sign-up-auth>a {
     color: white !important;
 }
