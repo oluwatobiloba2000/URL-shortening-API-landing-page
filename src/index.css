@@ -1,6 +1,7 @@
 html {
   overflow-x: hidden;
   font-family: poppins, 'curusive';
+    scroll-behavior: smooth;
 }
 
 body {
