@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/nav.css';
 
 const Nav = () =>(
     <header  className="top-header">
@@ -8,17 +9,22 @@ const Nav = () =>(
       <nav>
         <ul className="nav-list">
             <li>
+            {/* eslint-disable-next-line  */}
               <a href="#" rel="no-referrer">Features</a>
             </li>
             <li>
+            {/*eslint-disable-next-line  */}
               <a href="#" rel="no-referrer">Pricing</a>
             </li>
             <li>
+            {/* eslint-disable-next-line  */}
                <a href="#" rel="no-referrer">Resources</a>
             </li>
         </ul>
         <ul className="auth-list nav-list">
+        {/* eslint-disable-next-line  */}
             <li><a href="#" rel="no-referrer">login</a></li>
+            {/* eslint-disable-next-line  */}
             <li className="sign-up-auth"><a href="#" rel="no-referrer">sign up</a></li>
         </ul>
       </nav>
