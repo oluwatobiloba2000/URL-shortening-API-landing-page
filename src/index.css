@@ -1,5 +1,4 @@
 html {
-  overflow-x: hidden;
   font-family: poppins, 'curusive';
     scroll-behavior: smooth;
 }
@@ -22,6 +21,7 @@ button {
 }
 
 .container {
+  overflow-x: hidden;
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 45px;
