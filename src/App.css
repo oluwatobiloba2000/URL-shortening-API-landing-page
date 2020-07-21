@@ -213,3 +213,120 @@
 .social-links>div>a:hover .link-footer-svg {
     fill: hsl(180, 66%, 49%);
 }
+
+.original-url{
+    max-width: 73%;
+    word-break: break-all;
+}
+
+@media all and (max-width:800px) {
+    .copy-btn {
+        width: 94%;
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 20px;
+        height: 50px;
+        margin-bottom: 16px;
+    }
+
+    .original-url,
+    .shortened-url {
+        padding: 10px;
+    }
+
+    .original-url {
+        max-width: 100%;
+        border-bottom: 1px solid #9e9e9e7d;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .card {
+        max-width: 85%;
+        margin-top: 80px;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-1 {
+        max-width: 85%;
+        margin-top: 45px;
+    }
+
+    .card-2,
+    .card-3 {
+        max-width: 85%;
+        margin-top: 70px;
+    }
+
+    .circle {
+        top: -35px;
+        left: auto;
+    }
+
+    .divider {
+        width: 5px;
+        top: 10px;
+        height: 98%;
+        left: 50%;
+        background-color: hsl(180, 66%, 49%);
+    }
+
+    .card>p {
+        font-size: 18px;
+    }
+
+    .footer-links-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo{
+        width: 100% !important;
+        text-align: center;
+    }
+    .sub-links{
+        width: 100% !important;
+        margin-top: 17px;
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-links>div{
+        text-align: center;
+    }
+    .social-links{
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+}
+
+@media all and (max-width:660px) {
+    .introductory-text-container {
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mid-header {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home-svg {
+        width: 90%;
+    }
+
+}
