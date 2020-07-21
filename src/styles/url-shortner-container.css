@@ -1,5 +1,9 @@
 /* urlshortner container */
 
+#url-label{
+    display: none;
+}
+
 .url-shortner-container {
     position: relative;
     display: flex;
