@@ -14,23 +14,20 @@ const Nav = (props) =>(
       <nav id="top-nav">
         <ul className="nav-list">
             <li>
-            {/* eslint-disable-next-line  */}
-              <a href="#" rel="no-referrer">Features</a>
+              <a href="/">Features</a>
             </li>
             <li>
-            {/*eslint-disable-next-line  */}
-              <a href="#" rel="no-referrer">Pricing</a>
+              <a href="/">Pricing</a>
             </li>
             <li>
-            {/* eslint-disable-next-line  */}
-               <a href="#" rel="no-referrer">Resources</a>
+               <a href="/">Resources</a>
             </li>
-        </ul>
+         </ul>
         <ul className="auth-list nav-list">
-        {/* eslint-disable-next-line  */}
-            <li><a href="#" rel="no-referrer">login</a></li>
-            {/* eslint-disable-next-line  */}
-            <li className="sign-up-auth"><a href="#" rel="no-referrer">sign up</a></li>
+           <li>
+             <a href="/">login</a>
+            </li>
+          <li className="sign-up-auth"><a href="/">sign up</a></li>
         </ul>
       </nav>
    </header>

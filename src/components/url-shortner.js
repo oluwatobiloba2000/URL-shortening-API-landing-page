@@ -90,7 +90,7 @@ class URLshortner extends React.Component{
        return(
            <div className="url-shortner-container">
             <div className="url-input-container" >
-                <input className={emptyUrlInput ? 'empty-border-style' : '' } id="input-url" type="url" placeholder="Shorten a link here...."/>
+                <input className={emptyUrlInput ? 'empty-border-style' : '' } name="url" id="input-url" type="url" placeholder="Shorten a link here...."/>
                 {emptyUrlInput && <span className="empty-warn-span">Please add a link</span>}
                 <button  onClick={this.shortenURL} className="btn-primary">Shorten It!</button>
              </div>
