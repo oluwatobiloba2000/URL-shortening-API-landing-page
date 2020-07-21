@@ -1,19 +1,27 @@
+/* urlshortner container */
+
 .url-shortner-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -53px;
+    left: 8%;
+    width: 83%;
+}
+
+.url-input-container {
     background-image: url(../images/bg-shorten-desktop.svg);
     background-size: 100% 100%;
     background-color: hsl(257, 27%, 26%);
-    position: relative;
-    top: -53px;
-    left: 8%;
     height: 135px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
+    margin-top: 12px;
     align-items: center;
-    width: 83%;
 }
 
-.url-shortner-container>input {
+.url-input-container>input {
     height: 40%;
     width: 65%;
     border-radius: 6px;
@@ -22,7 +30,8 @@
     font-size: 16px;
 }
 
-.url-shortner-container>button {
+
+.url-input-container>button {
     height: 40%;
     margin-left: 18px;
     width: 18%;
@@ -32,4 +41,137 @@
     cursor: pointer;
     color: white;
     font-size: 18px;
+}
+
+.url-result {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.url-result-container {
+    margin-top: 20px;
+    padding-bottom: 12px;
+}
+
+.url-result>div {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 15px 10px 15px 15px;
+    font-weight: bold;
+}
+
+.url-result>div:not(:last-of-type) {
+    margin: 25px 0px 0px 0px;
+}
+
+.url {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.copy-btn {
+    height: 40px;
+    width: 115px;
+    margin-left: 19px;
+    border: none;
+    border-radius: 5px;
+    background-color: #30c1c1;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+.shortened-url {
+    color: #2acfcf;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.empty-border-style {
+    border: 2px solid #FF5722 !important;
+}
+
+.empty-warn-span {
+    position: absolute;
+    top: 105px;
+    left: 8%;
+    font-size: 18px;
+    font-style: italic;
+    color: #FF5722;
+}
+
+.network-error-span {
+    position: absolute;
+    left: 0px;
+    font-size: 11px;
+    top: -24px;
+    padding: 0px 10%;
+    border: 1px solid red;
+    color: #ff5252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.network-error-span>img {
+    width: 32px;
+    margin-right: 7px;
+}
+
+.copy-active {
+    background-color: hsl(258, 51%, 39%);
+    color: white;
+}
+
+@media all and (max-width: 900px) {
+    .url {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media all and (max-width: 800px){
+    .url-result>div {
+        flex-direction: column;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .url {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .url-input-container {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .url-input-container>input {
+        width: 82%;
+        height: 60px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .url-input-container>button {
+        margin-left: 0;
+        margin-top: 35px;
+        width: 83%;
+        height: 60px;
+        margin-bottom: 30px;
+    }
 }
